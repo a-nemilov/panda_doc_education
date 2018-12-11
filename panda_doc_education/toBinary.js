@@ -1,4 +1,3 @@
-
 const toBinary = (num) => {
     let arr = [];
     let i = Math.abs(num);
@@ -43,7 +42,7 @@ console.log(toBinary(100))
 //   toBinary(num);
 //   return parseInt(temp.join(''));
 //   }
-  
+
 //   console.log(foo(7));
 //   console.log(foo(100));
 //   console.log(foo(0));
