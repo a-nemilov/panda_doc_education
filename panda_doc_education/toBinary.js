@@ -1,10 +1,10 @@
 const toBinary = (num) => {
     let arr = [];
-    while (i >= 0) {
-        arr.push(i % 2);
-        num = parseInt(i / 2);
+    while (num >= 0) {
+        arr.push(num % 2);
+        num = parseInt(num / 2);
     }
-    return parseInt(arr.reverse().join(""));
+  return parseInt(arr.reverse().join(""));
 }
 
 console.log(toBinary(7))
