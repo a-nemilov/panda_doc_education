@@ -1,6 +1,5 @@
 const toBinary = (num) => {
     let arr = [];
-    let i = Math.abs(num);
     while (i >= 0) {
         arr.push(i % 2);
         num = parseInt(i / 2);
